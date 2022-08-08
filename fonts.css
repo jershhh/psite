@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "NeueMontrealBold";
+    src: url("fonts/PPNeueMontreal-Bold.woff") format("woff"),
+    url("fonts/PPNeueMontreal-Bold.otf") format("opentype");
+    }
+
+
+    @font-face {
+        font-family: "NeueMontrealRegular";
+        src: url("/fonts/PPNeueMontreal-Regular.otf") format("otf");
+        src: url("/fonts/PPNeueMontreal-Regular.woff") format("woff"),
+        url("/fonts/PPNeueMontreal-Regular.otf") format("opentype");
+        }
+
+@font-face {
+    font-family: "Hatton";
+    src: url("/fonts/PPHatton-Light.oft") format("otf");
+    src: url("/fonts/PPHatton-Light.woff") format("woff"),
+    url("/fonts/PPHatton-Light.otf") format("opentype");
+}

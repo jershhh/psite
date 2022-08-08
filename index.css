@@ -1,0 +1,99 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "NeueMontrealRegular";
+    color: #f8f8f8;
+    background-color: #090909;
+}
+
+body {
+    min-height:100vh;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.introcontainer {
+   
+padding-top: 77px;
+max-width:890px;
+margin-left:auto;
+margin-right:auto;
+}
+
+h1 {
+    font-size: 16px;
+    font-family:"NeueMontrealBold", sans-serif;
+}
+
+h2 {
+    font-size: 46px !important;
+    text-transform: uppercase;
+    margin: 50px 0 30px 0;
+    padding: 0 30px 0 30px;
+    display: block;
+    line-height: 45px;
+    will-change: transform;
+    font-size: calc(2.6875vw + 17.4px);
+    font-family:"Hatton", sans-serif;
+    letter-spacing: -2px;
+    text-transform:initial !important;
+}
+h3 {
+    font-size: 14px;
+    font-family: "NeueMontrealBold", sans-serif;
+    margin: 0 100px;
+    padding-top:30px;
+}
+
+ul li, ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    list-style-type:none;
+}
+
+.flexcontainer {
+    margin:40px 130px 100px 130px;
+}
+
+.flexcontainer ul{
+    display:flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+  padding: 10px 30px;
+  border: 2px solid #f8f8f8;
+  border-radius: 30px;
+
+}
+
+ul li a:hover {
+    background-color: #f8f8f8;
+    color: #000000;
+    transition:ease-in-out .3s; 
+}
+
+ul:nth-of-type(2) {
+    display:flex;
+    margin-top:40px;
+}
+
+.imgcontainer {
+    margin: 50px 0;
+}
+
+img {
+    max-width:70vw;
+    border-radius:30px;
+}
